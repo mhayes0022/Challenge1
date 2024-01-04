@@ -10,7 +10,7 @@ body {
 
 /* header */
 .header {
-    padding: 20px;
+    padding-top: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -27,7 +27,7 @@ body {
 
 
 /* links in header */
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
