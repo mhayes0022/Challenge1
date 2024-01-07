@@ -11,6 +11,8 @@ body {
 /* header */
 .header {
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -27,7 +29,7 @@ body {
 
 
 /* links in header */
-.header section {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,7 +49,7 @@ a {
     text-decoration: none;
 }
 
-/* background image of header */
+/* background image of header section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -66,7 +68,11 @@ a {
     margin-left: 20px;
 }
 
-/* search engine info, image, and placement */
+p {
+    font-size: 16px;
+}
+
+/* search engine optimization section and image */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -80,21 +86,20 @@ a {
     max-height: 200px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-p {
-    font-size: 16px;
+/* position element; used by both "search engine optimization" and "social media marketing" elements */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-/* online reputation management info, image, and placement */
+
+
+/* online reputation management section and image */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,6 +113,7 @@ p {
     max-height: 200px;
 }
 
+/* position element; used only by "online reputation management" element */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -118,7 +124,7 @@ p {
     font-size: 36px;
 }
 
-/* social media marketing info, image, and placement */
+/* social media marketing section and image*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,24 +157,56 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
+/*  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* benefits titles */
-.benefit-lead h3,
-.benefit-brand h3,
+
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* benefits images */
-.benefit-lead img,
-.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
