@@ -15,8 +15,6 @@ The right two-thirds of the main body of the page contains the three sections th
 
 The left third of the main body of the page contains a long, vertical bar describing the benefits of Horiseon. It lists three core benefits, each with an image corresponding and a short description. The top benefit described is titled "Lead Generation", the middle is titled "Brand Awareness", and the bottom is titled "Cost Management". 
 
-The very bottom of the page contains a footer with the company's copyright. 
-
 ## Website link:
 https://mhayes0022.github.io/Challenge1/
 
